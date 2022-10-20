@@ -7,13 +7,12 @@ public class PasswordUtils {
    }
 
    public static SecurityLavel assetsPasswork(String password) {
-       if(password.length() < 8 || password.matches("[a-zA-Z]+")) {
+       if(password.length() < 8 || password.matches("[a-zA-Z]+") || password.matches("[0-9]+")) {
            return SecurityLavel.WEAK;
        }
-       if (password.matches("[a-zA-Z0-9]")) {
+       if (password.matches("[a-zA-Z0-9]+")) {
            return SecurityLavel.MEDIUM;
        }
-
-       return SecurityLavel.WEAK;
+       return SecurityLavel.STRONG;
    }
 }
