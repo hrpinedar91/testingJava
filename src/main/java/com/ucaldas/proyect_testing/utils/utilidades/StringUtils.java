@@ -1,4 +1,4 @@
-package com.ucaldas.proyect_testing.utils;
+package com.ucaldas.proyect_testing.utils.utilidades;
 
 public class StringUtils {
     public static String repeat(String str, int times) throws IllegalArgumentException {
@@ -13,4 +13,5 @@ public class StringUtils {
         }
         return result;
     }
+
 }

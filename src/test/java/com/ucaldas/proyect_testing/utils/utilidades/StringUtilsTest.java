@@ -1,9 +1,9 @@
-package com.ucaldas.proyect_testing.utils;
+package com.ucaldas.proyect_testing.utils.utilidades;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static com.ucaldas.proyect_testing.utils.StringUtils.repeat;
+import static com.ucaldas.proyect_testing.utils.utilidades.StringUtils.repeat;
 
 public class StringUtilsTest {
 
